@@ -14,5 +14,5 @@ const addElement = (listItem) => {
     return newGroceryList;
 }
 
-console.log(addElement("pickles"));
+console.log(addElement("Jerk Seasoning"));
 console.log(groceryList);
