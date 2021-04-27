@@ -2,18 +2,20 @@
 This method doesn't change the original array */
 
 
-const groceryList = ["Paper Towels", "Eggs", "Milk", "Butter", "Soda"];
+const groceryList = ["Paper Towels", "Eggs","Milk", "Milk", "Butter", "Soda"];
 
 
+/* Pseudo Code 
 
-// Created function that adds an element to the new array.
-const addElement = (listItem) => {
+#Create function that prints groceryList unique values
 
-    groceryList.splice(2, 0, listItem)
-    return groceryList
 
-}
+*/
 
-const newGroceryList = groceryList.map(x => console.log(x))
-//console.log(addElement("so"))
-console.log(newGroceryList)
+
+const uniqueList =(string1,string2)=>{
+
+    if(string1 == string2){
+        
+    }
+};

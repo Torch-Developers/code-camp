@@ -24,11 +24,13 @@ const dc_heroes = [
 
 const removeHero = (health) => {
     if (health < 25) {
-        health === 0;
+        health = 0;
     }
+    
     return health;
 };
 
 
 console.log(newList = dc_heroes.map(x => removeHero(x.hero_health)));
+console.log(newList = dc_heroes.filter(x => removeHero(x.hero_health)));
 console.log(newList);
