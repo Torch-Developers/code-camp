@@ -31,6 +31,5 @@ const removeHero = (health) => {
 };
 
 
-console.log(newList = dc_heroes.map(x => removeHero(x.hero_health)));
-console.log(newList = dc_heroes.filter(x => removeHero(x.hero_health)));
+const newList = dc_heroes.map(x => x.hero_name + " | Health: " + removeHero(x.hero_health));
 console.log(newList);

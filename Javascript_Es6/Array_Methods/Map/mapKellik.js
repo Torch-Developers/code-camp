@@ -1,21 +1,36 @@
-/* The JavaScript array map() method calls the specified function for every array element and returns the new array. 
-This method doesn't change the original array */
+const dc_heroes = [
+    {
+        hero_name: "Batman",
+        hero_health: 75
+    },
+    {
+        hero_name: "Nightwing",
+        hero_health: 20
+    },
+    {
+        hero_name: "Red Hood",
+        hero_health: 18
+    },
+    {
+        hero_name: "Robin",
+        hero_health: 65
+    },
+    {
+        hero_name: "Cat Woman",
+        hero_health: 100
+    },
+];
 
 
-const groceryList = ["Paper Towels", "Eggs","Milk", "Milk", "Butter", "Soda"];
-
-
-/* Pseudo Code 
-
-#Create function that prints groceryList unique values
-
-
-*/
-
-
-const uniqueList =(string1,string2)=>{
-
-    if(string1 == string2){
-        
+const removeHero = (health) => {
+    if (health < 25) {
+        health = 0;
     }
+    
+    return health;
 };
+
+
+console.log(newList = dc_heroes.map(x => removeHero(x.hero_health)));
+//console.log(newList = dc_heroes.filter(x => removeHero(x.hero_health)));
+console.log(newList);
