@@ -6,28 +6,27 @@ const paintColors = ["Brown", "White", "Tan", "Red"];
 const negativeColors = (color) =>{
     switch(color){
         case "Brown":
-            color = "Dark Blue"
+            return "Dark Blue";
             break;
         case "White":
-            color = "Black"
+            return "Black";
             break;
         case "Tan":
-            color = "Bright"
+            return "Bright";
             break;
         case "Red":
-            color = "Yellow"
+            return "Yellow";
             break;
     }
 
 }
-console.log(negativeColors("Brown"))
+console.log(negativeColors('Brown'))
 //paintColors.forEach(x => console.log(x))
 const newP = []
 
 paintColors.forEach(x => {
     
-    negativeColors(x)
-    newP.push(x)
+    newP.push(negativeColors(x))
 
 
 })
