@@ -22,7 +22,3 @@ paintColors.forEach(x => {
     newP.push(negativeColors(x));
 });
 console.log(newP);
-
-
-
-
