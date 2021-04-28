@@ -7,21 +7,31 @@ const negativeColors = (color) => {
     switch (color) {
         case "Brown":
             return "Dark Blue";
+            break;
         case "White":
-            return "Black"
+            return "Black";
+            break;
         case "Tan":
-            return "Bright"
+            return "Bright";
+            break;
         case "Red":
-            return "Yellow"
+            return "Yellow";
+            break;
     }
 
 }
+console.log(negativeColors('Brown'))
+//paintColors.forEach(x => console.log(x))
 const newP = []
 
 paintColors.forEach(x => {
-    newP.push(negativeColors(x));
-});
-console.log(newP);
+
+    newP.push(negativeColors(x))
+
+
+})
+
+console.log(newP)
 
 
 

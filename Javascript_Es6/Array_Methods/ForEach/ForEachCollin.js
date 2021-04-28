@@ -15,8 +15,9 @@ const negativeColors = (color) => {
             return "Yellow"
     }
 
-}
-const newP = []
+};
+
+const newP = [];
 
 paintColors.forEach(x => {
     newP.push(negativeColors(x));
