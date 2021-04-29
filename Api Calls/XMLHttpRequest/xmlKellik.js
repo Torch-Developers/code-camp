@@ -1,5 +1,5 @@
-let XmlHttpRequest = require("xmlhttprequest").XmlHttpRequest;
-let request = new XmlHttpRequest();
+let xmlHttpRequest = require("xmlhttprequest").XMLHttpRequest;
+let request = new xmlHttpRequest();
 request.open("GET", "https://jsonplaceholder.typicode.com/todos/1"); //retrieve data from server
 request.send();
 request.onload = () => {
