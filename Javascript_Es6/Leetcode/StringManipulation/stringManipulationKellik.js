@@ -23,5 +23,16 @@ const reverseString = (string) => {
 
     
 }
+const reverseStringArray = (string) => {
+    
+    if(string === ""){
+        return "";
+    }else{
 
-console.log(reverseString(string2))
+        return reverseString(string.substr(1)) + string.charAt(0);
+    }
+
+    
+}
+
+console.log(reverseString(string1))
