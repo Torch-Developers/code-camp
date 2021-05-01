@@ -6,9 +6,9 @@ var string2 = "Collin";
 const reversal = (str) => {
     var splitString = str.split('');
 
-    var reverseArr = splitString.reverse();
+    var reverseArr = splitString.reverse(); // ['n', 'i', 'l', 'l', 'o', 'C']
 
-    var joinArr = reverseArr.join(" ");
+    var joinArr = reverseArr.join('');
 
     return joinArr;
 }
