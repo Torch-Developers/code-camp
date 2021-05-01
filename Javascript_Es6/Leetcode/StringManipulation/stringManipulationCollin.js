@@ -5,7 +5,8 @@ const string2 = "Collin";
 
 const reversal = (str) => {
     const splitString = str.split('');
-    //const splitString = [...str]; using spread to split the string into a char array
+    //const splitString = [...str]; 
+    //using spread to split the string into a char array
 
     const reverseArr = splitString.reverse(); // ['n', 'i', 'l', 'l', 'o', 'C']
 
