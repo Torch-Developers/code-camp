@@ -1,16 +1,22 @@
 /* String Manipulation Leet Code Question */
 
-var string = ['String', 'Bean', 'Green', 'Team'];
-var string2 = "Collin";
+const string1 = ['String', 'Bean', 'Green', 'Team'];
+const string2 = "Collin";
 
 const reversal = (str) => {
-    var splitString = str.split('');
+    const splitString = str.split('');
+    //const splitString = [...str]; 
+    //using spread to split the string into a char array
 
-    var reverseArr = splitString.reverse(); // ['n', 'i', 'l', 'l', 'o', 'C']
+    const reverseArr = splitString.reverse(); // ['n', 'i', 'l', 'l', 'o', 'C']
 
-    var joinArr = reverseArr.join('');
+    const joinArr = reverseArr.join('');
 
     return joinArr;
 }
 
 console.log(reversal(string2));
+
+for (let i = 0; i < string1.length; i++) {
+    console.log(reversal(string1[i]));
+}
