@@ -35,7 +35,7 @@ const palindromeIndex = (s) => {
 
     const sLen = s.length;
 
-    for (let i = 0; i < sLen / 2; i++) {
+    for (let i = 0; i < sLen / 2; i++) { // We divide the length by two because we are looking at the start and the end of the string and trying to comapre the two. 
         if (s.charAt(i) !== s.charAt(sLen - i - 1)) {
 
             if (i + 1 < sLen) {
