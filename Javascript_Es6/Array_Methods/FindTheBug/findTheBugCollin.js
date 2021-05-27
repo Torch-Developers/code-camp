@@ -1,0 +1,1 @@
+/* Purpose of this activity is to find the bug in the code and figure out how to fix it */
