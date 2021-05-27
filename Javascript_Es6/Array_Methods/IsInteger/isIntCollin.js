@@ -13,6 +13,7 @@ isInteger(5);
 
 console.log("---------------------------");
 
+//using Number.isInteger for seeing if number is actually an integer.
 const isNumInteger = (y) =>{
     console.log(Number.isInteger(y));
 }
